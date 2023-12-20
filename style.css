@@ -3,9 +3,7 @@
     background-color: rgba(255, 0, 0, 0.418);
     height: 400px;
 }
-#grid-square {
-    background-color: purple;
-}
+
 #grid-squares {
     background-color: pink;
     display: flex;
