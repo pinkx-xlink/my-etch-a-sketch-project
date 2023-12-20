@@ -4,6 +4,8 @@
     height: 300px;
     max-width: 300px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #grid-squares {
