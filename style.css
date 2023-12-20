@@ -1,14 +1,16 @@
 
 #grid-container {
     background-color: rgba(255, 0, 0, 0.418);
-    height: 300px;
-    max-width: 300px;
+    height: 400px;
+    max-width: 400px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #grid-squares {
     background-color: pink;
     max-width: 300px;
+    border: 2px solid red;
 }
