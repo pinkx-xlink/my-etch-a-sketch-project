@@ -1,10 +1,10 @@
 const gridContainer = document.querySelector("#grid-container");
 
-const gridSquare = document.createElement('div');
-gridSquare.classList.add('div');
-gridSquare.textContent = "I'm a square";
-gridSquare.setAttribute('id', 'grid-square');
-gridContainer.appendChild(gridSquare);
+// const gridSquares = document.createElement('div');
+// gridSquares.classList.add('div');
+// gridSquares.textContent = "I'm a square";
+// gridSquares.setAttribute('id', 'grid-squares');
+// gridContainer.appendChild(gridSquares);
 
 //const gridArray = Array(16);
 
