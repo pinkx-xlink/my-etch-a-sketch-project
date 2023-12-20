@@ -14,3 +14,7 @@
     height: 70px;
     width: 70px;
 }
+
+#grid-squares:hover {
+    background-color: black;
+}
