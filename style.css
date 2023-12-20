@@ -1,4 +1,8 @@
 
+body {
+    display: flex;
+    justify-content: center;
+}
 #grid-container {
     background-color: rgba(255, 0, 0, 0.418);
     max-width: fit-content;
@@ -6,6 +10,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 75%;
 }
 
 #grid-squares {
