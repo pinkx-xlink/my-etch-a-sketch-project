@@ -2,14 +2,11 @@
 #grid-container {
     background-color: rgba(255, 0, 0, 0.418);
     height: 300px;
-    width: 300px;
+    max-width: 300px;
     display: flex;
 }
 
 #grid-squares {
     background-color: pink;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 120px;
+    max-width: 300px;
 }
