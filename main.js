@@ -12,7 +12,7 @@ let i = 0;
 function createGrid() {
     for (i = 0; i < 16; i++)
     gridContainer.innerHTML+= 
-`<div class="grid-squares" id="grid-squares"> I'm a square </div>`;
+`<div class="grid-squares" id="grid-squares"></div>`;
     i++;
     console.log("added a square");
 };
