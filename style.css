@@ -17,6 +17,7 @@ body {
     border: 2px solid red;
     height: 70px;
     width: 70px;
+    flex: 1 auto;
 }
 
 #grid-squares:hover {
