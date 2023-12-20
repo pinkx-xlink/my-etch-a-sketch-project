@@ -20,6 +20,6 @@ body {
     flex: 1 auto;
 }
 
-#grid-squares:hover {
+#grid-squares:hover, #grid-squares:active {
     background-color: black;
 }
