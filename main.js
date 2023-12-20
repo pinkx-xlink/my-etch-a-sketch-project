@@ -11,7 +11,7 @@ gridContainer.appendChild(gridSquare);
 let i = 0;
 function createGrid() {
     for (i = 0; i < 16; i++)
-    gridContainer.innerHTML+= `<div class="grid-square"> square </div>`;
+    gridContainer.innerHTML+= `<div class="grid-squares" id="grid-squares"> square </div>`;
     i++;
     console.log("added a square");
 };
