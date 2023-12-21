@@ -16,3 +16,10 @@ changeSizeBtn.classList.add('button');
 changeSizeBtn.setAttribute('id', 'change-size-btn');
 changeSizeBtn.textContent="Change grid size?";
 tools.appendChild(changeSizeBtn);
+
+function changeSize() {
+    let newSize = prompt("How many squares?")
+    console.log("How many squares, dude?")
+}
+
+changeSizeBtn.addEventListener('click', changeSize());
