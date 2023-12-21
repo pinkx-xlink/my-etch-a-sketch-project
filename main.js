@@ -2,6 +2,7 @@ const gridContainer = document.querySelector("#grid-container");
 
 const gridSquares = document.createElement('div');
 
+
 // gridSquares.classList.add('div');
 // gridSquares.textContent = "I'm a square";
 // gridSquares.setAttribute('id', 'grid-squares');
@@ -15,11 +16,12 @@ function createGrid() {
     gridContainer.innerHTML+= 
 `<div class="grid-squares" id="grid-squares"></div>`;
     i++;
-    console.log("added a square");
+    
 };
-createGrid();
-
 gridSquares.addEventListener("click", function(e) {
     this.classList.toggle("is-active");
 });
+createGrid();
+
+
 
