@@ -24,6 +24,8 @@ body {
 }
 
 #grid-squares:hover,
-#grid-squares:focus {
+#grid-squares:focus,
+#new-grid-squares:hover,
+#new-grid-squares:focus {
     background-color: black;
 }
