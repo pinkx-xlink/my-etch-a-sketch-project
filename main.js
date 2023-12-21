@@ -1,10 +1,6 @@
 const gridContainer = document.querySelector("#grid-container");
 
-const gridSquares = document.createElement('button');
-gridSquares.addEventListener('click', function onClick(event) {
-    event.target.style.backgroundColor = 'salmon';
-});
-
+const gridSquares = document.querySelector('#grid-squares');
 
 // gridSquares.classList.add('div');
 // gridSquares.textContent = "I'm a square";
@@ -13,7 +9,7 @@ gridSquares.addEventListener('click', function onClick(event) {
 
 
 let i = 0;
-function createGrid() {
+function createGrid() { 
     for (i = 0; i < 16; i++)
     gridContainer.innerHTML+= 
 `<button class="grid-squares" id="grid-squares"></button>`;
