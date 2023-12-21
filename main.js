@@ -1,12 +1,12 @@
 const gridContainer = document.querySelector("#grid-container");
 
- let i = 0;
- function createGrid() { 
-     for (i = 0; i < 16; i++)
-     gridContainer.innerHTML+= `<button class="grid-squares" id="grid-squares"></button>`;
-     i++;
- };
-createGrid();
+// let i = 0;
+// function createGrid() { 
+//     for (i = 0; i < 16; i++)
+//     gridContainer.innerHTML+= `<button class="grid-squares" id="grid-squares"></button>`;
+//     i++;
+// };
+// createGrid();
 
 const gridSquares = document.querySelector('#grid-squares');
 
@@ -28,7 +28,7 @@ changeSizeBtn.addEventListener('click', function changeSize() {
             alert("Too much square, dude!!");
             break;
         } else if (newSize < 100) {
-            const newGridSquares = document.createElement('button');
+            const newGridSquares = document.createElement('div');
             newGridSquares.setAttribute('id', 'new-grid-squares');
             gridContainer.appendChild(newGridSquares);
             ++i;
