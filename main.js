@@ -11,7 +11,6 @@ gridSquares.addEventListener('click', function onClick(event) {
 // gridSquares.setAttribute('id', 'grid-squares');
 // gridContainer.appendChild(gridSquares);
 
-//const gridArray = Array(16);
 
 let i = 0;
 function createGrid() {
