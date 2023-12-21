@@ -20,4 +20,11 @@ tools.appendChild(changeSizeBtn);
 changeSizeBtn.addEventListener('click', function changeSize() {
     let newSize = prompt("How many squares?")
     console.log("How many squares, dude?")
+    let i = 0;
+    function createNewGrid() { 
+        for (i = 0; i < newSize; i++)
+        gridContainer.innerHTML+= `<button class="grid-squares" id="grid-squares"></button>`;
+        i++;
+    };
+    createNewGrid();
 });
