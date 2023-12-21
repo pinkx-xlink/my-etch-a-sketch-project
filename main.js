@@ -28,7 +28,7 @@ changeSizeBtn.addEventListener('click', function changeSize() {
             alert("Too much square, dude!!");
             break;
         } else if (newSize < 100) {
-            const newGridSquares = document.createElement('div');
+            const newGridSquares = document.createElement('button');
             newGridSquares.setAttribute('id', 'new-grid-squares');
             gridContainer.appendChild(newGridSquares);
             ++i;
