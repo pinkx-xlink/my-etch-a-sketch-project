@@ -8,3 +8,4 @@ In my first iteration of this project, the squares immediately changed color on 
 I will need to be able to use user input to determine the size of the grid, max size being 100. With a simple prompt and createGrid using ${userInput}, I think this will be managable.
 The extra credit is to 1. add a rainbow drawing method, and 2. a brush method that gets progressively 10% darker as it's used.
 
+12/20/23 ~2 hrs

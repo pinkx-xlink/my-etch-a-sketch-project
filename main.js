@@ -31,6 +31,7 @@ function clearGrid() {
 changeSizeBtn.addEventListener('click', function changeSize() {
     const newSize = prompt("How many squares?");
     console.log(`${newSize}`);
+    let i = 0;
     function createNewGrid() { 
         let i = 0;
         for (i = 0; i < newSize;) { 
