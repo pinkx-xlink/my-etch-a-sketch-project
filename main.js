@@ -1,6 +1,11 @@
 const gridContainer = document.querySelector("#grid-container");
 
-const gridSquares = document.createElement('div');
+const gridSquares = document.createElement('button');
+gridSquares.addEventListener("click", function() {
+    const currentColor = document.body.style.backgroundColor;
+
+    document.body.style.backgroundColor = currentColor === 'pink' ? 'black';
+});
 
 
 // gridSquares.classList.add('div');
@@ -14,7 +19,7 @@ let i = 0;
 function createGrid() {
     for (i = 0; i < 16; i++)
     gridContainer.innerHTML+= 
-`<div class="grid-squares" id="grid-squares"></div>`;
+`<button class="grid-squares" id="grid-squares"></button>`;
     i++;
     
 };
@@ -22,6 +27,8 @@ gridSquares.addEventListener("click", function(e) {
     this.classList.toggle("is-active");
 });
 createGrid();
+
+
 
 
 
