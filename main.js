@@ -1,6 +1,10 @@
 const gridContainer = document.querySelector("#grid-container");
 
 const gridSquares = document.createElement('button');
+gridSquares.addEventListener('click', function onClick(event) {
+    event.target.style.backgroundColor = 'salmon';
+});
+
 
 // gridSquares.classList.add('div');
 // gridSquares.textContent = "I'm a square";
@@ -21,8 +25,3 @@ gridSquares.addEventListener("click", function(e) {
     this.classList.toggle("is-active");
 });
 createGrid();
-
-
-
-
-
