@@ -1,12 +1,6 @@
 const gridContainer = document.querySelector("#grid-container");
 
 const gridSquares = document.createElement('button');
-gridSquares.addEventListener("click", function() {
-    const currentColor = document.body.style.backgroundColor;
-
-    document.body.style.backgroundColor = currentColor === 'pink' ? 'black';
-});
-
 
 // gridSquares.classList.add('div');
 // gridSquares.textContent = "I'm a square";
