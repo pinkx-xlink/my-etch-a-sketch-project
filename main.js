@@ -23,12 +23,14 @@ changeSizeBtn.addEventListener('click', function changeSize() {
     console.log(`${newSize}`);
     
     function createNewGrid() { 
-        for (i = 0; i < newSize; ++i) { 
+        for (i = 0; i < newSize;) { 
         if (newSize > 100) {
             alert("Too much square, dude!!");
             break;
         } else if (newSize < 100) {
-            gridContainer.innerHTML += `<button class="grid-squares" id="grid-squares"></button>`;
+            const newGridSquares = document.createElement('div');
+            newGridSquares.setAttribute('id', 'new-grid-squares');
+            gridContainer.appendChild(newGridSquares);
             ++i;
         };  
         };
