@@ -21,7 +21,5 @@ function createGrid() {
     i++;
     
 };
-gridSquares.addEventListener("click", function(e) {
-    this.classList.toggle("is-active");
-});
+
 createGrid();
