@@ -19,11 +19,11 @@ changeSizeBtn.textContent="Change grid size?";
 tools.appendChild(changeSizeBtn);
 
 function clearGrid() {
-    if (gridSquares > 0) {
+    if (i > 0) {
         gridSquares === 0;
         console.log("fresh canvas");
-    } else if (newGridSquares > 0) {
-        newGridSquares ===0;
+    } else if (i > 0) {
+        newGridSquares === 0;
         console.log("fresh canvas");
     }
 }
@@ -32,7 +32,6 @@ changeSizeBtn.addEventListener('click', function changeSize() {
     const newSize = prompt("How many squares?");
     console.log(`${newSize}`);
     function createNewGrid() { 
-        clearGrid();
         let i = 0;
         for (i = 0; i < newSize;) { 
         if (newSize > 100) {
