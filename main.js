@@ -34,7 +34,7 @@ function Grid() {
         gridContainer.innerHTML += `<button>o</button>`;
         //gridContainer.appendChild(newGridSquares); Node issue
         console.log("Congrats, we made a new grid using a constructor!");
-        console.log(`${gridSizeInput}`);
+        console.log(`${gridSizeInput}`); 
         ++i;
       };
     };
