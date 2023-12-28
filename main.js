@@ -44,3 +44,6 @@ function Grid() {
   return gridSize;
 };
 
+function changeColor() {
+    
+}
