@@ -34,7 +34,6 @@ function Grid() {
       } else if (gridSizeInput < 100) {
         for (i = 0; i < gridSize;) {
             gridContainer.innerHTML += `<button id="grid-size">o</button>`;
-            const gridSquares = document.querySelector('#grid-size');
             console.log("Congrats, we made a new grid using a constructor!");
             console.log(`Grid measurements: ${gridSizeInput} x ${gridSizeInput}`);
             ++i;
@@ -46,17 +45,17 @@ function Grid() {
   return gridSize;
 };
 
-// function changeColor() {
-//     gridSquares.innerHTML = `
-//     <style>
-//     #grid-squares,
-//     #grid-size,
-//     #grid-size-input {
-//         background-color: blue;
-//         border: 1px solid rgba(255, 0, 0, 0.26);
-//     }
-//     </style>
-//     `;
-// };
+function changeColor() {
+    gridSquares.innerHTML = `
+    <style>
+    #grid-squares,
+    #grid-size,
+    #grid-size-input {
+        background-color: blue;
+        border: 1px solid rgba(255, 0, 0, 0.26);
+    }
+    </style>
+    `;
+};
 //changeColor();
 //gridSquares.addEventListener('click', changeColor());
