@@ -31,10 +31,13 @@ function Grid() {
         alert("too many squares, dude!");
         console.log("New Grid not made - too many squares requested.");
       } else if (gridSizeInput < 100) {
-        gridContainer.innerHTML += `<button>o</button>`;
+        if (i < gridSize) {
+            gridContainer.innerHTML += `<button>o</button>`;
         console.log("Congrats, we made a new grid using a constructor!");
         console.log(`Grid measurements: ${gridSizeInput} x ${gridSizeInput}`);
         ++i;
+        }
+        
       };
     };
   };
