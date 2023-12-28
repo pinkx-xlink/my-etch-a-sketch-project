@@ -47,8 +47,12 @@ function Grid() {
 };
 
 function changeColor(event) {
-    event.target.textContent = !event.target.classList.contains('opened') ? 'Closed' : 'Opened'
-    event.target.classList.toggle('opened');
+    // event.target.textContent = !event.target.classList.contains('opened') ? 'Closed' : 'Opened'
+    // event.target.classList.toggle('opened');
+    // document.addEventListener('DOMContentLoaded', function() {
+    //     for(let button of this.doctype.getElementByClassName('grid-squares'))
+    //         button.addEventListener('click', changeColor);
+    //})
     gridSquares.innerHTML = `
     <style>
     #grid-squares,
