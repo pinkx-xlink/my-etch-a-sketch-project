@@ -23,7 +23,7 @@ function Grid() {
                 alert("too many squares, dude!");
                 console.log("New Grid not made - too many squares requested.")
             } else if (gridSize < 100) {
-                //const newGridSquares = gridSquares.innerHTML+=`<div>Hello.</div>`; only adds 1 at a time no matter input #
+               
                 gridContainer.innerHTML+= `<button>o</button>`;
                 //gridContainer.appendChild(newGridSquares); Node issue
                 console.log("Congrats, we made a new grid using a constructor!");
