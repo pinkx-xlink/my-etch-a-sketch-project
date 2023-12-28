@@ -33,7 +33,7 @@ function Grid() {
         console.log("New Grid not made - too many squares requested.");
       } else if (gridSizeInput < 100) {
         for (i = 0; i < gridSize;) {
-            gridContainer.innerHTML += `<button id="grid-size", onclick="changeColor()">o</button>`;
+            gridContainer.innerHTML += `<button id="grid-size">o</button>`; //, onclick="changeColor()"
             
             console.log("Congrats, we made a new grid using a constructor!");
             console.log(`Grid measurements: ${gridSizeInput} x ${gridSizeInput}`);
