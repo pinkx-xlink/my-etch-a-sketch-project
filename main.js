@@ -34,6 +34,7 @@ function Grid() {
       } else if (gridSizeInput < 100) {
         for (i = 0; i < gridSize;) {
             gridContainer.innerHTML += `<button id="grid-size">o</button>`;
+            const gridSquares = document.querySelector('#grid-size');
             console.log("Congrats, we made a new grid using a constructor!");
             console.log(`Grid measurements: ${gridSizeInput} x ${gridSizeInput}`);
             ++i;
