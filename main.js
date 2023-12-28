@@ -22,11 +22,15 @@ function Grid() {
             if (gridSize > 100) {
                 alert("too many squares, dude!");
                 console.log("New Grid not made - too many squares requested.")
+            } else if (gridSize < 100) {
+                
+                console.log("Congrats, we made a new grid using a constructor!");
+                console.log(`${gridSize}`);
+                i++;
             }
         }
 
-        console.log("Congrats, we made a new grid using a constructor!");
-        console.log(`${gridSize}`);
+        
     }
     return newGrid;
     return gridSize;
