@@ -47,7 +47,7 @@ function Grid() {
 };
 
 function changeColor() {
-    gridSquares.innerHTML = `
+    this.gridSquares.innerHTML = `
     <style>
     #grid-squares,
     #grid-size,
