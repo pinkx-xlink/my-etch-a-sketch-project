@@ -45,5 +45,13 @@ function Grid() {
 };
 
 function changeColor() {
-    
+    gridSquares.innerHTML = `
+    <style>
+    #grid-squares,
+    #grid-size {
+        background-color: black;
+        border: 1px solid rgba(255, 0, 0, 0.26);
+    }
+    </style>
+    `;
 }
