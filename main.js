@@ -58,6 +58,6 @@ function changeColor() {
     </style>
     `;
 };
-this.gridSquares.addEventListener('onclick', changeColor());
+gridSquares.addEventListener('click', changeColor());
 //changeColor(); this works...troubleshoot why eventlistener doesn't
 //gridSize.addEventListener('click', changeColor);
