@@ -9,16 +9,20 @@ body {
     /* adjust min/max-height for phone viewing later, but focus on pc for now */
     height: 550px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+  
 }
 
 #grid-squares,
 #grid-size {
     background-color: pink;
     border: 1px solid rgba(255, 0, 0, 0.26);
-    
-    flex: 1 auto;
+    /* flex-basis: 100%; */
+    /* flex-grow: 1; */
+    flex: 1 1 0;
+    flex-basis: 0;
+   
 }
 
 #grid-squares:hover,
