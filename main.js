@@ -23,6 +23,8 @@ let i = 0;
 function Grid() {
   const newGrid = function () {
     const gridSizeInput = prompt("How many squares?");
+    const gridSize = multiply(gridSizeInput);
+    console.log(gridSize);
 
     for (i = 0; i < gridSizeInput;) {
       if (gridSizeInput > 100) {
