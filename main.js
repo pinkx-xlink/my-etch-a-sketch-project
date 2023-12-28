@@ -58,7 +58,3 @@ function changeColor() {
     `;
 };
 //gridSquares.addEventListener('click', changeColor());
-
- //removing this. makes code execute before any click
-//changeColor(); this works...troubleshoot why eventlistener doesn't
-//gridSize.addEventListener('click', changeColor);
