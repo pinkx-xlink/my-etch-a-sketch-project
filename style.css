@@ -9,9 +9,10 @@ body {
     /* adjust min/max-height for phone viewing later, but focus on pc for now */
     height: 550px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow:row wrap;
+    justify-content: flex-start;
 }
 
 #grid-squares,
@@ -20,9 +21,9 @@ body {
     border: 1px solid rgba(255, 0, 0, 0.26);
     /* flex-basis: 100%; */
     /* flex-grow: 1; */
-    flex: 1;
-    max-height: 50%;
-    flex-basis: 0;
+    /* flex: 1; */
+    /* max-height: 50%;
+    flex-basis: 0; */
 }
 
 #grid-squares:hover,
