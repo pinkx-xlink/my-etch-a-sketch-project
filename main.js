@@ -13,6 +13,13 @@ gridSquares.classList.add('button');
 gridSquares.setAttribute('id', 'grid-squares');
 gridContainer.appendChild(gridSquares);
 
+const multiply = function(a) {
+    let product = 1;
+    for (let i = 0; i < a.length; i++) {
+        product *= a[i];
+    }
+}
+
 let i = 0;
 function Grid() {
   const newGrid = function () {
