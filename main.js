@@ -58,6 +58,6 @@ function changeColor() {
     </style>
     `;
 };
-new Grid.addEventListener('onclick', changeColor());
+//newGrid.addEventListener('onclick', changeColor());
 //changeColor(); this works...troubleshoot why eventlistener doesn't
 //gridSize.addEventListener('click', changeColor);
