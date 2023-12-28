@@ -57,4 +57,4 @@ function changeColor() {
     `;
 };
 //changeColor(); this works...troubleshoot why eventlistener doesn't
-gridSize.addEventListener('click', changeColor);
+//gridSize.addEventListener('click', changeColor);
