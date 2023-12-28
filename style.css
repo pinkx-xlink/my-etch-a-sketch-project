@@ -35,3 +35,7 @@ body {
 #grid-size:focus {
     background-color: black;
 }
+
+.blue {
+    background-color: blue;
+}

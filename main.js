@@ -45,6 +45,10 @@ function Grid() {
   return gridSize;
 };
 
+function changeMyColor() {
+    gridSquares.classList.toggle('blue');
+}
+
 // function changeColor() {
 //     gridSquares.innerHTML = `
 //     <style>
