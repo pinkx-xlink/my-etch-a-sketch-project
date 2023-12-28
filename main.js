@@ -18,12 +18,14 @@ function Grid() {
     const newGrid = function () {
         const gridSize = prompt("How many squares?");
 
-        for (i = 0; i < gridSize; i++); {
+        for (i = 0; i < gridSize;) {
             if (gridSize > 100) {
                 alert("too many squares, dude!");
                 console.log("New Grid not made - too many squares requested.")
             } else if (gridSize < 100) {
-                const newGridSquares = 
+                //const newGridSquares = gridSquares.innerHTML+=`<div>Hello.</div>`; only adds 1 at a time no matter input #
+                gridContainer.innerHTML+= `<button>o</button>`;
+                //gridContainer.appendChild(newGridSquares); Node issue
                 console.log("Congrats, we made a new grid using a constructor!");
                 console.log(`${gridSize}`);
                 ++i;
