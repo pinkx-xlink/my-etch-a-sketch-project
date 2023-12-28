@@ -18,7 +18,7 @@ function Grid() {
     const newGrid = function () {
         const gridSize = prompt("How many squares?");
 
-        for (i=0; i < gridSize; i++); {
+        for (i = 0; i < gridSize; i++); {
             if (gridSize > 100) {
                 alert("too many squares, dude!");
                 console.log("New Grid not made - too many squares requested.")
@@ -28,7 +28,7 @@ function Grid() {
                 gridContainer.appendChild(newGridSquares);
                 console.log("Congrats, we made a new grid using a constructor!");
                 console.log(`${gridSize}`);
-                i++;
+                ++i;
             }
         }
 
