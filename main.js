@@ -10,9 +10,11 @@ changeSizeBtn.addEventListener('click', new Grid());
 
 function Grid() {
     const newGrid = function () {
-        const gridSize = prompt("How many squares?")
-        console.log("Congrats, we made a new grid using a constructor!")
+        const gridSize = prompt("How many squares?");
+        console.log("Congrats, we made a new grid using a constructor!");
+        console.log(`${gridSize}`);
     }
     return newGrid;
+    return gridSize;
 };
 
