@@ -8,7 +8,10 @@ changeSizeBtn.textContent="Change grid size?";
 tools.appendChild(changeSizeBtn);
 changeSizeBtn.addEventListener('click', new Grid());
 
-
+const gridSquares = document.createElement('button');
+gridSquares.classList.add('button');
+gridSquares.setAttribute('id', 'grid-squares');
+gridContainer.appendChild(gridSquares);
 
 function Grid() {
     const newGrid = function () {
