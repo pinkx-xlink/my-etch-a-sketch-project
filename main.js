@@ -46,7 +46,9 @@ function Grid() {
   return gridSize;
 };
 
-function changeColor(gridSquares) {
+function changeColor(event) {
+    event.target.textContent = !event.target.classList.contains('opened') ? 'Closed' : 'Opened'
+    event.target.classList.toggle('opened');
     gridSquares.innerHTML = `
     <style>
     #grid-squares,
@@ -58,7 +60,7 @@ function changeColor(gridSquares) {
     </style>
     `;
 };
-this.gridSquares.addEventListener("click", changeColor());
+this.gridSize.addEventListener("click", changeColor());
 
  //removing this. makes code execute before any click
 //changeColor(); this works...troubleshoot why eventlistener doesn't
