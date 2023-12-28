@@ -5,8 +5,9 @@ body {
 }
 #grid-container {
     background-color: rgba(255, 0, 0, 0.418);
-    max-width: 350px;
-    max-height: fit-content;
+    width: 550px; 
+    /* adjust min/max-height for phone viewing later, but focus on pc for now */
+    height: 550px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
