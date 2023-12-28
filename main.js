@@ -23,7 +23,9 @@ function Grid() {
                 alert("too many squares, dude!");
                 console.log("New Grid not made - too many squares requested.")
             } else if (gridSize < 100) {
-                
+                const newGridSquares = document.createElement('button');
+                newGridSquares.setAttribute('id', 'new-grid-squares');
+                gridContainer.appendChild(newGridSquares);
                 console.log("Congrats, we made a new grid using a constructor!");
                 console.log(`${gridSize}`);
                 i++;
