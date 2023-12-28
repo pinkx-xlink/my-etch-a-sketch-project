@@ -22,17 +22,17 @@ const multiply = function(a) {
 let i = 0;
 function Grid() {
   const newGrid = function () {
-    const gridSize = prompt("How many squares?");
+    const gridSizeInput = prompt("How many squares?");
 
-    for (i = 0; i < gridSize;) {
-      if (gridSize > 100) {
+    for (i = 0; i < gridSizeInput;) {
+      if (gridSizeInput > 100) {
         alert("too many squares, dude!");
         console.log("New Grid not made - too many squares requested.");
-      } else if (gridSize < 100) {
+      } else if (gridSizeInput < 100) {
         gridContainer.innerHTML += `<button>o</button>`;
         //gridContainer.appendChild(newGridSquares); Node issue
         console.log("Congrats, we made a new grid using a constructor!");
-        console.log(`${gridSize}`);
+        console.log(`${gridSizeInput}`);
         ++i;
       };
     };
