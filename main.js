@@ -13,8 +13,8 @@ gridSquares.classList.add('button');
 gridSquares.setAttribute('id', 'grid-squares');
 gridContainer.appendChild(gridSquares);
 
-const multiply = function(a, a) {
-    let product *= a;
+const multiply = function(a) {
+    let product = a * a;
     return product;
     console.log(product);
 }
