@@ -8,10 +8,10 @@ changeSizeBtn.textContent ="Change grid size?";
 tools.appendChild(changeSizeBtn);
 changeSizeBtn.addEventListener('click', new Grid());
 
-const gridSquares = document.createElement('button');
-gridSquares.classList.add('button');
-gridSquares.setAttribute('id', 'grid-squares');
-gridContainer.appendChild(gridSquares);
+// const gridSquares = document.createElement('button');
+// gridSquares.classList.add('button');
+// gridSquares.setAttribute('id', 'grid-squares');
+// gridContainer.appendChild(gridSquares);
 
 const multiply = function(a) {
     let product = a * a;
