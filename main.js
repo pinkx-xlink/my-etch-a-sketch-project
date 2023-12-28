@@ -47,12 +47,6 @@ function Grid() {
 };
 
 function changeColor() {
-    // event.target.textContent = !event.target.classList.contains('opened') ? 'Closed' : 'Opened'
-    // event.target.classList.toggle('opened');
-    // document.addEventListener('DOMContentLoaded', function() {
-    //     for(let button of this.doctype.getElementByClassName('grid-squares'))
-    //         button.addEventListener('click', changeColor);
-    //})
     gridSquares.innerHTML = `
     <style>
     #grid-squares,
@@ -64,7 +58,7 @@ function changeColor() {
     </style>
     `;
 };
-gridSquares.addEventListener('click', changeColor());
+//gridSquares.addEventListener('click', changeColor());
 
  //removing this. makes code execute before any click
 //changeColor(); this works...troubleshoot why eventlistener doesn't
