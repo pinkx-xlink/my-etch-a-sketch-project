@@ -25,6 +25,7 @@ function Grid() {
     const gridSizeInput = prompt("How many squares?");
     const gridSize = multiply(gridSizeInput);
     console.log(gridSize);
+    
 
     for (i = 0; i < gridSizeInput;) {
       if (gridSizeInput > 100) {
@@ -33,6 +34,7 @@ function Grid() {
       } else if (gridSizeInput < 100) {
         for (i = 0; i < gridSize;) {
             gridContainer.innerHTML += `<button id="grid-size" >o</button>`;
+            
             console.log("Congrats, we made a new grid using a constructor!");
             console.log(`Grid measurements: ${gridSizeInput} x ${gridSizeInput}`);
             ++i;
@@ -56,5 +58,6 @@ function changeColor() {
     </style>
     `;
 };
+new Grid.addEventListener('onclick', changeColor());
 //changeColor(); this works...troubleshoot why eventlistener doesn't
 //gridSize.addEventListener('click', changeColor);
