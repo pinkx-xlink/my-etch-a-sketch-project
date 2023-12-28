@@ -30,11 +30,11 @@ function Grid() {
       if (gridSizeInput > 100) {
         alert("too many squares, dude!");
         console.log("New Grid not made - too many squares requested.");
-      } else if (gridSizeInput < 100) {
+      } else if (gridSizeInput < 100 && gridSizeInput < gridSize) {
         gridContainer.innerHTML += `<button>o</button>`;
         //gridContainer.appendChild(newGridSquares); Node issue
         console.log("Congrats, we made a new grid using a constructor!");
-        console.log(`${gridSizeInput}`); 
+        console.log(`Grid measurements: ${gridSizeInput} x ${gridSizeInput}`);
         ++i;
       };
     };
