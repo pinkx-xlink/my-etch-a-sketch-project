@@ -4,7 +4,7 @@ const tools = document.querySelector("#tools");
 const changeSizeBtn = document.createElement('button');
 changeSizeBtn.classList.add('button');
 changeSizeBtn.setAttribute('id', 'change-size-btn');
-changeSizeBtn.textContent="Change grid size?";
+changeSizeBtn.textContent ="Change grid size?";
 tools.appendChild(changeSizeBtn);
 changeSizeBtn.addEventListener('click', new Grid());
 
@@ -15,26 +15,23 @@ gridContainer.appendChild(gridSquares);
 
 let i = 0;
 function Grid() {
-    const newGrid = function () {
-        const gridSize = prompt("How many squares?");
+  const newGrid = function () {
+    const gridSize = prompt("How many squares?");
 
-        for (i = 0; i < gridSize;) {
-            if (gridSize > 100) {
-                alert("too many squares, dude!");
-                console.log("New Grid not made - too many squares requested.")
-            } else if (gridSize < 100) {
-               
-                gridContainer.innerHTML+= `<button>o</button>`;
-                //gridContainer.appendChild(newGridSquares); Node issue
-                console.log("Congrats, we made a new grid using a constructor!");
-                console.log(`${gridSize}`);
-                ++i;
-            }
-        }
-
-        
-    }
-    return newGrid;
-    return gridSize;
+    for (i = 0; i < gridSize;) {
+      if (gridSize > 100) {
+        alert("too many squares, dude!");
+        console.log("New Grid not made - too many squares requested.");
+      } else if (gridSize < 100) {
+        gridContainer.innerHTML += `<button>o</button>`;
+        //gridContainer.appendChild(newGridSquares); Node issue
+        console.log("Congrats, we made a new grid using a constructor!");
+        console.log(`${gridSize}`);
+        ++i;
+      };
+    };
+  };
+  return newGrid;
+  return gridSize;
 };
 
