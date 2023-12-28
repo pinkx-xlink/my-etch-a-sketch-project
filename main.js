@@ -48,10 +48,13 @@ function changeColor() {
     gridSquares.innerHTML = `
     <style>
     #grid-squares,
-    #grid-size {
+    #grid-size,
+    #grid-size-input {
         background-color: black;
         border: 1px solid rgba(255, 0, 0, 0.26);
     }
     </style>
     `;
-}
+};
+//changeColor(); this works...troubleshoot why eventlistener doesn't
+gridSize.addEventListener('click', changeColor);
