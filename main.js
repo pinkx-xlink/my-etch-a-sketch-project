@@ -45,16 +45,16 @@ function Grid() {
   return gridSize;
 };
 
-function changeColor() {
-    gridSquares.innerHTML = `
-    <style>
-    #grid-squares,
-    #grid-size,
-    #grid-size-input {
-        background-color: blue;
-        border: 1px solid rgba(255, 0, 0, 0.26);
-    }
-    </style>
-    `;
-};
+// function changeColor() {
+//     gridSquares.innerHTML = `
+//     <style>
+//     #grid-squares,
+//     #grid-size,
+//     #grid-size-input {
+//         background-color: blue;
+//         border: 1px solid rgba(255, 0, 0, 0.26);
+//     }
+//     </style>
+//     `;
+// };
 //gridSquares.addEventListener('click', changeColor());
