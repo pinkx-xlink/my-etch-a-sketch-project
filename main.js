@@ -30,8 +30,6 @@ function Grid() {
     
     let gridSize = document.querySelector("#grid-size");
     gridSize = multiply(gridSizeInput);
-    gridSize.addEventListener("mouseover", changeColor());
-    gridSize.style.backgroundColor = "yellow";
     console.log(gridSize);
 
     for (i = 0; i < gridSizeInput;) {
