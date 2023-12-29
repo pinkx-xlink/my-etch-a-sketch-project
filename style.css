@@ -29,6 +29,10 @@ body {
     flex-basis: 0; */
 }
 
+.blue {
+    background-color: blue;
+}
+
 /* #grid-squares:hover,
 #grid-squares:focus,
 #grid-size:hover,
