@@ -51,7 +51,8 @@ function Grid() {
 };
 
 function changeColor() {
-    this.style.backgroundColor = color;
+    gridSize.addEventListener("mouseover", changeColor);
+    this.style.backgroundColor = "blue";
 }
 
 
