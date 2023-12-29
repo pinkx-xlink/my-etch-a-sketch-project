@@ -1,5 +1,6 @@
 let color = "blue";
 
+
 const gridContainer = document.querySelector("#grid-container");
 const tools = document.querySelector("#tools");
 
@@ -44,6 +45,10 @@ function Grid() {
   return newGrid;
   return gridSize;
 };
+
+function changeColor() {
+    this.style.backgroundColor = color;
+}
 
 
 // function changeColor() {
