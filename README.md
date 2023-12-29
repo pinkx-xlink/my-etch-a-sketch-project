@@ -14,5 +14,5 @@ The extra credit is to 1. add a rainbow drawing method, and 2. a brush method th
 I scrapped the old code I wrote last week, and replaced the gridSquares and createNewGrid() function with a Grid constructor. Using the contructor I was able to make the squares incriment correctly to the EXACT number I chose--no weird extra (or missing) squares.
 I played with the flex a little bit, but couldn't quite figure out how to make all squares in the responsive grid actually look like squares (and all be the same proportions) no matter how many squares there are. 
 
-12/28/23:
+12/28/23: ~1 hr
 My goal for today is to make all squares in the grid the same proportions no matter what size the grid is/how many squares there are. I'm also going to try to figure out how to "draw" on the grid, and then remove the borders and background color from the squares. 
