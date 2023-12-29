@@ -25,7 +25,6 @@ body {
     justify-content: flex-start;
 }
 
-#grid-squares,
 #grid-size {
     background-color: pink;
     border: 1px solid rgba(255, 0, 0, 0.26);
@@ -40,8 +39,7 @@ body {
     background-color: blue;
 }
 
-/* #grid-squares:hover,
-#grid-squares:focus,
+/* 
 #grid-size:hover,
 #grid-size:focus {
     background-color: black;
