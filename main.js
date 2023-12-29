@@ -27,8 +27,6 @@ function Grid() {
     const gridSizeInput = prompt("How many squares?");
     let gridSize = multiply(gridSizeInput);
     console.log(gridSize);
-    
-
     for (i = 0; i < gridSizeInput;) {
       if (gridSizeInput > 100) {
         alert("too many squares, dude!");
