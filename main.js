@@ -1,3 +1,5 @@
+let color = "blue";
+
 const gridContainer = document.querySelector("#grid-container");
 const tools = document.querySelector("#tools");
 
