@@ -44,24 +44,23 @@ function Grid() {
   return gridSize;
 };
 
-function changeColor() {
+function colorSquare() {
     gridSize.addEventListener("mouseover", changeColor);
-    
 }
 
 
 // function changeColor() {
-//     gridContainer.innerHTML = `
-//     <style>
-//     #grid-squares,
-//     #grid-size,
-//     #grid-size-input {
-//         background-color: blue;
-//         border: 1px solid rgba(255, 0, 0, 0.26);
-//     }
-//     </style>
-//     `;
-// };
+//      gridContainer.innerHTML = `
+//      <style>
+//      #grid-squares,
+//      #grid-size,
+//      #grid-size-input {
+//          background-color: blue;
+//          border: 1px solid rgba(255, 0, 0, 0.26);
+//      }
+//      </style>
+//      `;
+//  };
 // const gridSize = document.querySelector("#grid-size");
 // gridSize.addEventListener('click', changeColor());
 //changeColor();
