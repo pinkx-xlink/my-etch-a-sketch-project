@@ -16,3 +16,6 @@ I played with the flex a little bit, but couldn't quite figure out how to make a
 
 12/28/23: ~1 hr
 My goal for today is to make all squares in the grid the same proportions no matter what size the grid is/how many squares there are. I'm also going to try to figure out how to "draw" on the grid, and then remove the borders and background color from the squares. 
+
+12/29/23: 10:30am-
+Today's goal is to make the changeColor() function work on click one square at a time instead of none at all, or on all squares at once. Then, I'll add different color options and an "eraser" element. 
