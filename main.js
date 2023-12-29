@@ -45,8 +45,9 @@ function Grid() {
   return gridSize;
 };
 
+
 function changeColor() {
-    gridSquares.innerHTML = `
+    gridSize.innerHTML = `
     <style>
     #grid-squares,
     #grid-size,
@@ -57,5 +58,7 @@ function changeColor() {
     </style>
     `;
 };
+const gridSize = document.querySelector("#grid-size");
+gridSize.addEventListener('click', changeColor());
 //changeColor();
 //gridSquares.addEventListener('click', changeColor());

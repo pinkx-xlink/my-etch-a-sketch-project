@@ -1,4 +1,6 @@
-
+* {
+    background-color: purple;
+}
 body {
     display: flex;
     justify-content: center;
