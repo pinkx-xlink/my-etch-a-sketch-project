@@ -46,18 +46,18 @@ function Grid() {
 };
 
 
-function changeColor() {
-    gridContainer.innerHTML = `
-    <style>
-    #grid-squares,
-    #grid-size,
-    #grid-size-input {
-        background-color: blue;
-        border: 1px solid rgba(255, 0, 0, 0.26);
-    }
-    </style>
-    `;
-};
+// function changeColor() {
+//     gridContainer.innerHTML = `
+//     <style>
+//     #grid-squares,
+//     #grid-size,
+//     #grid-size-input {
+//         background-color: blue;
+//         border: 1px solid rgba(255, 0, 0, 0.26);
+//     }
+//     </style>
+//     `;
+// };
 // const gridSize = document.querySelector("#grid-size");
 // gridSize.addEventListener('click', changeColor());
 //changeColor();
