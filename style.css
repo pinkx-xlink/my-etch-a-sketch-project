@@ -35,7 +35,8 @@ body {
     flex-basis: 0; */
 }
 
-.blue {
+#square {
+    height: 30px;
     background-color: blue;
 }
 
