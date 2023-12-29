@@ -45,7 +45,7 @@ function Grid() {
 };
 
 function colorSquare() {
-    gridSize.addEventListener("mouseover", changeColor);
+    this.style.backgroundColor = color;
 }
 
 
