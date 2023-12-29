@@ -34,6 +34,8 @@ function Grid() {
       } else if (gridSizeInput < 100) {
         for (i = 0; i < gridSize;) {
             gridContainer.innerHTML += `<button id="grid-size">o</button>`;
+            const gridSize = document.querySelector("#grid-size");
+            gridSize.addEventListener('click', changeColor());
             console.log("Congrats, we made a new grid using a constructor!");
             console.log(`Grid measurements: ${gridSizeInput} x ${gridSizeInput}`);
             ++i;
@@ -58,7 +60,6 @@ function changeColor() {
     </style>
     `;
 };
-const gridSize = document.querySelector("#grid-size");
-gridSize.addEventListener('click', changeColor());
+
 //changeColor();
 //gridSquares.addEventListener('click', changeColor());
