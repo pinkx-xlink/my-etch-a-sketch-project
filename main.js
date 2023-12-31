@@ -9,8 +9,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const blackBtn = document.querySelector("#black");
+blackBtn.addEventListener("click", function black() {
+    this.style.backgroundColor = "black";
+});
+
 const erasorBtn = document.querySelector("#erasor");
+erasorBtn.addEventListener("click", function erase() {
+    this.style.backgroundColor = "white";
+});
+
 const rainbowBtn = document.querySelector("#rainbow");
+rainbowBtn.addEventListener("click", function rainbow() {
+    this.style.backgroundColor = "pink";
+})
 
 
 function createGrid(size) {
