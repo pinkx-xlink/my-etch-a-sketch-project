@@ -8,6 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+const blackBtn = document.querySelector("#black");
+const erasorBtn = document.querySelector("#erasor");
+const rainbowBtn = document.querySelector("#rainbow");
+
+
 function createGrid(size) {
     const gridContainer = document.querySelector(".grid-container");
     gridContainer.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
@@ -24,9 +29,6 @@ function createGrid(size) {
     }
 };
 
-function chooseColor() {
-
-}
 
 function getSize() {
     let input = prompt("Please enter a number between 2 and 100");
