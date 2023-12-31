@@ -6,6 +6,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-around;
+}
 #change-size-btn {
     background-color: pink;
     border-radius: 5px;
