@@ -15,11 +15,9 @@ button {
     background-color: pink;
     border-radius: 5px;
     height: 30px;
-    display: flex;
-    align-self: center;
     border-style: none;
     box-shadow: -4px 3px 12px;
-    text-align:center;
+    margin: 20px;
 }
 #size-btn:hover {
     background-color: rgb(199, 97, 97);
@@ -30,6 +28,7 @@ button {
     flex-direction: row;
     width: 500px;
     justify-content: space-around;
+    margin: 10px;
 }
 
 #grid-container {
