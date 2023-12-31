@@ -64,6 +64,3 @@ function getSize() {
         return input;
     } else {console.log('error')}
 };
-
-
-
