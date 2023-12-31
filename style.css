@@ -17,11 +17,6 @@ button {
     justify-content: space-around;
 }
 
-#size {
-    height: 20px;
-    width: 70px;
-    align-self: center;
-}
 
 .grid {
     display: flex;
