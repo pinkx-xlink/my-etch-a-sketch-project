@@ -47,7 +47,7 @@ button {
     border: 2px solid black;
     display: grid;
 }
-#square {
-
+#square:hover {
+    background-color: yellow;
 }
 

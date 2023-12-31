@@ -16,7 +16,6 @@ function createGrid(size) {
     
     for (let i = 0; i < totalSquares; i++) {
         let square = document.createElement('div');
-        
         square.setAttribute('id', 'square');
         gridContainer.insertAdjacentElement("beforeend", square);
     }
