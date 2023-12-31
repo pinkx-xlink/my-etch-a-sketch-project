@@ -47,7 +47,8 @@ button {
     border: 2px solid black;
 }
 #square {
-    
+    height: 5px;
+    width: 5px;
     background-color: purple;
     border: 1px solid brown;
 }
