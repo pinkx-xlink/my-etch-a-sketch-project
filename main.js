@@ -24,6 +24,10 @@ function createGrid(size) {
     }
 };
 
+function chooseColor() {
+
+}
+
 function getSize() {
     let input = prompt("Please enter a number between 2 and 100");
     if (input == "") {
