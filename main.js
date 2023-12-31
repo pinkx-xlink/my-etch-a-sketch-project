@@ -43,9 +43,9 @@ function createGrid(size) {
         
             rainbowBtn.addEventListener("click", function rainbow() {
                 square.addEventListener("mouseover", function () {
-                    this.style.backgroundColor = "pink";
+                    this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
                 });
-                this.style.backgroundColor = "pink";
+                this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
             });
 
         square.setAttribute('id', 'square');
