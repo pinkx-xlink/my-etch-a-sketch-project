@@ -7,6 +7,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.grid {
+    display: flex;
+    flex-direction: row;
+}
+
 .header {
     display: flex;
     flex-direction: row;
