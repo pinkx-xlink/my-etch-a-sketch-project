@@ -1,5 +1,5 @@
 * {
-    background-color: purple;
+    
 }
 body {
     display: flex;
@@ -7,7 +7,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+button {
+    font-family: 'Courier New', Courier, monospace;
+}
 .header {
     display: flex;
     flex-direction: row;
@@ -41,11 +43,7 @@ body {
 }
 #grid-container {
     width: 550px; 
-    /* adjust min/max-height for phone viewing later, but focus on pc for now */
     height: 550px;
-    /* display: flex;
-    flex-flow:row wrap;
-    justify-content: flex-start; */
     border: 2px solid black;
   
 }
