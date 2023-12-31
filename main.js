@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function createGrid(size) {
-    const gridContainer = document.querySelector("#grid-container");
+    const gridContainer = document.querySelector(".grid-container");
     gridContainer.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
     gridContainer.style.gridTemplateRows = `repeat(${size}, 1fr)`;
     let totalSquares = size * size;
     
     for (let i = 0; i < totalSquares; i++) {
         let square = document.createElement('div');
-        square.style.backgroundColor = "pink";
+        
         square.setAttribute('id', 'square');
         gridContainer.insertAdjacentElement("beforeend", square);
     }
