@@ -31,14 +31,15 @@ function createGrid(size) {
                 square.addEventListener("mouseover", function () {
                     this.style.backgroundColor = "black";
                 });
-                this.style.backgroundColor = "gray";
+            //    this.style.backgroundColor = "black";
+            //    this.style.color = "white";
             });
         
             erasorBtn.addEventListener("click", function erase() {
                 square.addEventListener("mouseover", function () {
                     this.style.backgroundColor = "white";
                 });
-                this.style.backgroundColor = "white";
+               // this.style.backgroundColor = "white";
             });
         
             rainbowBtn.addEventListener("click", function rainbow() {

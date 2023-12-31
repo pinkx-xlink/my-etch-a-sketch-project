@@ -7,20 +7,29 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 button {
     font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    border-style:hidden;
+    
+    border-radius: 3px;
+}
+button:hover {
+    box-shadow: 2px 5px 13px;
+    border: 1px solid black;
 }
 
 #size-btn {
-    background-color: pink;
-    border-radius: 5px;
-    height: 30px;
-    border-style: none;
-    box-shadow: -4px 3px 12px;
     margin: 20px;
 }
-#size-btn:hover {
-    background-color: rgb(199, 97, 97);
+#black:focus {
+    background-color: black;
+    color: white;
+}
+#erasor:focus {
+    background-color: rgb(179, 65, 84);
+    color: white;
 }
 
 .header {
