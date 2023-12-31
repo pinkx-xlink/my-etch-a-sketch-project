@@ -26,11 +26,17 @@ body {
     flex-direction: row;
 }
 
-#change-size-btn {
+#size-btn {
     background-color: pink;
     border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-self: center;
+    border-style: none;
+    box-shadow: -4px 3px 12px;
+    text-align:center;
 }
-#change-size-btn:hover {
+#size-btn:hover {
     background-color: rgb(199, 97, 97);
 }
 #grid-container {
