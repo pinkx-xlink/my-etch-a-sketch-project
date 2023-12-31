@@ -8,8 +8,6 @@ body {
     align-items: center;
 }
 
-
-
 .header {
     display: flex;
     flex-direction: row;
@@ -45,6 +43,7 @@ body {
     flex-wrap: wrap; */
     flex-flow:row wrap;
     justify-content: flex-start;
+    margin: 10px;
 }
 
 #grid-size {
