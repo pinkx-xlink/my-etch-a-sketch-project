@@ -45,13 +45,9 @@ button {
     width: 550px; 
     height: 550px;
     border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
 }
 #square {
-    height: 20px;
-    width: 20px;
     border: 1px solid brown;
 }
 
