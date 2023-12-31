@@ -8,10 +8,7 @@ body {
     align-items: center;
 }
 
-.grid {
-    display: flex;
-    flex-direction: row;
-}
+
 
 .header {
     display: flex;
@@ -19,6 +16,18 @@ body {
     width: 500px;
     justify-content: space-around;
 }
+
+#size {
+    height: 20px;
+    width: 70px;
+    align-self: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+}
+
 #change-size-btn {
     background-color: pink;
     border-radius: 5px;
