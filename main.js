@@ -31,7 +31,7 @@ function createGrid(size) {
                 square.addEventListener("mouseover", function () {
                     this.style.backgroundColor = "black";
                 });
-                this.style.backgroundColor = "black";
+                this.style.backgroundColor = "gray";
             });
         
             erasorBtn.addEventListener("click", function erase() {
