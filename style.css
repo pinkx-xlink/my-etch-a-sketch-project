@@ -44,11 +44,9 @@ body {
     width: 550px; 
     /* adjust min/max-height for phone viewing later, but focus on pc for now */
     height: 550px;
-    display: flex;
-    /* flex-direction: column;
-    flex-wrap: wrap; */
+    /* display: flex;
     flex-flow:row wrap;
-    justify-content: flex-start;
+    justify-content: flex-start; */
     margin: 10px;
 }
 
