@@ -13,9 +13,9 @@ function createGrid(size) {
     gridContainer.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
     gridContainer.style.gridTemplateRows = `repeat(${size}, 1fr)`;
     let totalSquares = size * size;
-    console.log(totalSquares);
+    
     for (let i = 0; i < totalSquares; i++) {
-        const square = document.createElement('div');
+        let square = document.createElement('div');
         square.style.backgroundColor = "pink";
         square.setAttribute('id', 'square');
         gridContainer.insertAdjacentElement("beforeend", square);
@@ -27,9 +27,9 @@ function getSize() {
     if (input == "") {
         prompt("pls enter #")
     } else if (input > 2 && input < 100) {
-        prompt("that works");
+        console.log("that works");
         return input;
-    }
+    } else {console.log('error')}
 };
 
 
