@@ -27,31 +27,26 @@ function createGrid(size) {
         //     this.style.backgroundColor = "purple";
         // });
 
-        function changeColor() {
             blackBtn.addEventListener("click", function black() {
-                square.addEventListener("mouseover", function changeColor() {
+                square.addEventListener("mouseover", function () {
                     this.style.backgroundColor = "black";
                 });
                 this.style.backgroundColor = "black";
-                console.log("black");
             });
         
             erasorBtn.addEventListener("click", function erase() {
-                square.addEventListener("mouseover", function changeColor() {
+                square.addEventListener("mouseover", function () {
                     this.style.backgroundColor = "white";
                 });
                 this.style.backgroundColor = "white";
-                console.log("erase");
             });
         
             rainbowBtn.addEventListener("click", function rainbow() {
-                square.addEventListener("mouseover", function changeColor() {
+                square.addEventListener("mouseover", function () {
                     this.style.backgroundColor = "pink";
                 });
                 this.style.backgroundColor = "pink";
-                console.log("random");
             });
-        }
 
         square.setAttribute('id', 'square');
         gridContainer.insertAdjacentElement("beforeend", square);
