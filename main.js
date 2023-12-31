@@ -9,20 +9,31 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const blackBtn = document.querySelector("#black");
-blackBtn.addEventListener("click", function black() {
-    this.style.backgroundColor = "black";
-});
-
 const erasorBtn = document.querySelector("#erasor");
-erasorBtn.addEventListener("click", function erase() {
-    this.style.backgroundColor = "white";
-});
-
 const rainbowBtn = document.querySelector("#rainbow");
-rainbowBtn.addEventListener("click", function rainbow() {
-    this.style.backgroundColor = "pink";
-})
 
+function changeColor() {
+    blackBtn.addEventListener("click", function black() {
+        square.addEventListener("mouseover", function changeColor() {
+            this.style.backgroundColor = "black";
+        });
+        this.style.backgroundColor = "black";
+    });
+
+    erasorBtn.addEventListener("click", function erase() {
+        square.addEventListener("mouseover", function changeColor() {
+            this.style.backgroundColor = "white";
+        });
+        this.style.backgroundColor = "white";
+    });
+
+    rainbowBtn.addEventListener("click", function rainbow() {
+        square.addEventListener("mouseover", function changeColor() {
+            this.style.backgroundColor = "pink";
+        });
+        this.style.backgroundColor = "pink";
+    });
+}
 
 function createGrid(size) {
     const gridContainer = document.querySelector(".grid-container");
@@ -32,9 +43,11 @@ function createGrid(size) {
     
     for (let i = 0; i < totalSquares; i++) {
         let square = document.createElement('div');
-        square.addEventListener("mouseover", function changeColor() {
-            this.style.backgroundColor = "purple";
-        });
+
+        // square.addEventListener("mouseover", function changeColor() {
+        //     this.style.backgroundColor = "purple";
+        // });
+
         square.setAttribute('id', 'square');
         gridContainer.insertAdjacentElement("beforeend", square);
     }
